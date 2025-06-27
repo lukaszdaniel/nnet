@@ -23,9 +23,10 @@
  */
 
 #include <stdlib.h> // currently in R.h
+#include <math.h>
 #include <R.h>
 #include <R_ext/Applic.h>
-#include <math.h>
+#include "localization.h"
 
 typedef double Sdata;
 
@@ -122,7 +123,7 @@ VR_nntest(int *ntest, Sdata *test, Sdata *result, double *inwts)
 	wts[i] = inwts[i];
     NTest = *ntest;
     if (Nweights == 0)
-	Rf_error("No model set");
+	Rf_error(_("No model set"));
 
     for (i = 0; i < Noutputs; i++)
 	toutputs[i] = 0.5;

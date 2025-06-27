@@ -1,87 +1,189 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: nnet 7.3-19\n"
-"POT-Creation-Date: 2023-11-28 20:11\n"
+"Project-Id-Version: nnet 7.3-20\n"
+"POT-Creation-Date: 2025-06-25 19:11\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "need two or more classes to fit a multinom model"
-msgstr ""
 
-msgid "some case has no observations"
-msgstr ""
-
-msgid "ncol(offset) is wrong"
-msgstr ""
-
-msgid "not a \"multinom\" fit"
-msgstr ""
+#: R/multinom.R: 0
+#. R/multinom.R: stop("'scope' is not a subset of term labels")
 
 msgid "'scope' is not a subset of term labels"
 msgstr ""
 
-msgid "number of rows in use has changed: remove missing values?"
-msgstr ""
 
-msgid "no terms in 'scope' for adding to object"
-msgstr ""
-
-msgid "anova is not implemented for a single \"multinom\" object"
-msgstr ""
-
-msgid "not all objects are of class \"multinom\""
-msgstr ""
-
-msgid "models were not all fitted to the same size of dataset"
-msgstr ""
-
-msgid "missing values in 'x'"
-msgstr ""
-
-msgid "missing values in 'y'"
-msgstr ""
-
-msgid "nrows of 'x' and 'y' must match"
-msgstr ""
-
-msgid "entropy fit only for logistic units"
-msgstr ""
-
-msgid "no weights to fit"
-msgstr ""
-
-msgid "too many (%d) weights"
-msgstr ""
+#: R/nnet.R: 0
+#. R/nnet.R: stop("'softmax = TRUE' requires at least two response categories")
 
 msgid "'softmax = TRUE' requires at least two response categories"
 msgstr ""
 
-msgid "weights vector of incorrect length"
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("anova is not implemented for a single \"multinom\" object")
+
+msgid "anova is not implemented for a single \"multinom\" object"
 msgstr ""
 
-msgid "incorrect length of 'mask'"
-msgstr ""
 
-msgid "invalid weights vector"
-msgstr ""
-
-msgid "object not of class \"nnet\""
-msgstr ""
-
-msgid "inappropriate fit for class"
-msgstr ""
+#: R/nnet.R: 0
+#. R/nnet.R: stop("dims of 'x' and 'y' must match")
 
 msgid "dims of 'x' and 'y' must match"
 msgstr ""
 
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("entropy fit only for logistic units")
+
+msgid "entropy fit only for logistic units"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("inappropriate fit for class")
+
+msgid "inappropriate fit for class"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("incorrect length of 'mask'")
+
+msgid "incorrect length of 'mask'"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("invalid weights vector")
+
+msgid "invalid weights vector"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("missing values in 'x'")
+
+msgid "missing values in 'x'"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("missing values in 'y'")
+
+msgid "missing values in 'y'"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("models were not all fitted to the same size of dataset")
+
+msgid "models were not all fitted to the same size of dataset"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("ncol(offset) is wrong")
+
+msgid "ncol(offset) is wrong"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("need two or more classes to fit a multinom model")
+
+msgid "need two or more classes to fit a multinom model"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("no terms in 'scope' for adding to object")
+
+msgid "no terms in 'scope' for adding to object"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("no weights to fit")
+
+msgid "no weights to fit"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("not a \"multinom\" fit")
+
+msgid "not a \"multinom\" fit"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("not a legitimate neural net fit")
+
 msgid "not a legitimate neural net fit"
 msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("not all objects are of class \"multinom\"")
+
+msgid "not all objects are of class \"multinom\""
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("nrows of 'x' and 'y' must match")
+
+msgid "nrows of 'x' and 'y' must match"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("number of rows in use has changed: remove missing values?")
+
+msgid "number of rows in use has changed: remove missing values?"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("object not of class \"nnet\"")
+
+msgid "object not of class \"nnet\""
+msgstr ""
+
+
+#: R/multinom.R: 0
+#. R/multinom.R: stop("some case has no observations")
+
+msgid "some case has no observations"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: gettextf("too many (%d) weights", nwts)
+
+msgid "too many (%d) weights"
+msgstr ""
+
+
+#: R/nnet.R: 0
+#. R/nnet.R: stop("weights vector of incorrect length")
+
+msgid "weights vector of incorrect length"
+msgstr ""
+
+
+#: R/multinom.R: 0
+#: R/nnet.R: 0
+#. R/multinom.R: ngettext(length(empty), "group %s is empty", "groups %s are empty")
+#. R/nnet.R: ngettext(length(empty), "group %s is empty", "groups %s are empty")
 
 msgid        "group %s is empty"
 msgid_plural "groups %s are empty"
