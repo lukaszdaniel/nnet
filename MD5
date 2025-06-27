@@ -1,6 +1,6 @@
 b5835a1a06dc5a83b0465dbd6c3f39e4 *inst/NEWS
-ebc399d7fa554b21672fec7edc8feccb *inst/po/pl/LC_MESSAGES/R-nnet.mo
-f5d1465e8f94525d68d8dde27a3de0ee *inst/po/pl/LC_MESSAGES/nnet.mo
+a0a87056292af2e0cef1a342f54b4849 *inst/po/pl/LC_MESSAGES/R-nnet.mo
+fcfabfa1a87fea685232b40bd8ee549f *inst/po/pl/LC_MESSAGES/nnet.mo
 2c091a5437b4e02e9629919835fc5596 *inst/po/ko/LC_MESSAGES/R-nnet.mo
 665354dcbf8546c70a26f5ef093a7d6e *inst/po/de/LC_MESSAGES/R-nnet.mo
 e7588a6260c587f4cc38253074c49551 *inst/po/fr/LC_MESSAGES/R-nnet.mo
@@ -18,11 +18,11 @@ cd6a3761edca3e8aa4c84b873f48f9ff *man/nnet.Hess.Rd
 f846b6a5f4a8466aad32c811b3189bd0 *man/which.is.max.Rd
 658e8411d785b785db614690f26710b0 *man/class.ind.Rd
 cd4abba1ffaa95683ed0dfb776b78ae0 *po/R-nnet.pot
-aa2d1ed2ca5038f8410c5282d750cb49 *po/R-pl.po
+e0a700653edce43389f2e30d7d3d7db8 *po/R-pl.po
 80632a97efc4fcb9da2b19ffbb378cac *po/R-de.po
 e5d2edfa6eca098f871288aa8475038b *po/R-it.po
 84af35571a78290c8efe9e47f753f045 *po/R-ko.po
-eb9bff3dc3d25e3b854a08b4ba29636a *po/pl.po
+29cfd56012ca9144d825aab28cc705c0 *po/pl.po
 14c4c09fdc9897c8c4a97bfa3122ea3b *po/nnet.pot
 eeb292883255f2bf38e6c124dbef28f8 *po/R-fr.po
 0611f18002ef19f31e57919fd7a80b35 *R/vcovmultinom.R
